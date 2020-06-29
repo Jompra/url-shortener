@@ -36,6 +36,10 @@ const routes = [
   {
     path: 'pup-repo',
     url: 'https://github.com/Jompra/sei-project-one'
+  },
+  {
+    path: 'url-repo',
+    url: 'https://github.com/Jompra/sei-project-one'
   }
 ]
 
@@ -53,6 +57,9 @@ const App = () => (
             <Redirect {...routeProps} {...route} />
           )} />
       ))}
+      <Route path='*' component={() => (
+        window.location.href = portfolioUrl
+      )} />
     </Switch>
   </BrowserRouter >
 )
