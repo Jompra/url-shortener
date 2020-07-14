@@ -7,7 +7,7 @@ const portfolioUrl = 'http://www.georgekeesjones.com'
 const routes = [
   {
     path: 'celeb',
-    url: 'https://find-your-celebrity-lookalike.netlify.app'
+    url: 'https://github.com/Jompra/Celebrity-Lookalike'
   },
   {
     path: 'celeb-repo',
@@ -19,7 +19,7 @@ const routes = [
   },
   {
     path: 'filtr-repo',
-    url: 'https://github.com/Jompra/filtr'
+    url: 'https://github.com/Jompra/Filtr'
   },
   {
     path: 'plntify',
@@ -27,7 +27,7 @@ const routes = [
   },
   {
     path: 'plntify-repo',
-    url: 'https://github.com/Jompra/sei-group-project'
+    url: 'https://github.com/Jompra/Plntify-Swapshop'
   },
   {
     path: 'pup',
@@ -35,7 +35,7 @@ const routes = [
   },
   {
     path: 'pup-repo',
-    url: 'https://github.com/Jompra/sei-project-one'
+    url: 'https://github.com/Jompra/Pupper-Game'
   },
   {
     path: 'url-repo',
